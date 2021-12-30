@@ -1,5 +1,43 @@
-@media (max-width: 962px) {
+@media (max-width: 854px) {
   header {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+  header h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 1.25rem;
+  }
+  header h2 {
+    font-size: 1rem;
+  }
+
+  #about {
+    margin: 0 2% 0 2%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  #about p {
+    font-size: 1.15rem;
+  }
+
+  .experience {
+    width: 95vw;
+  }
+  .experience a {
+    width: 9rem;
+    height: 7rem;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .experience a div {
+    text-align: center;
   }
 }
