@@ -30,6 +30,9 @@ body {
   font-family: "Noto Sans", Tahoma, Verdana, Helvetica;
 }
 
+header {
+  padding-bottom: 1rem;
+}
 header h1 {
   text-align: center;
   font-size: 4rem;
@@ -42,6 +45,7 @@ header h2 {
   text-align: center;
   font-style: italic;
   font-weight: 100;
+  margin: 0 2.5rem 0 2.5rem;
 }
 header span {
   font-weight: 800;
@@ -75,15 +79,15 @@ header span {
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  width: 80vw;
+  width: 75vw;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 .experience a {
   padding: 5rem;
   background: #5352ed;
-  width: 25rem;
-  height: 8rem;
+  width: 18rem;
+  height: 6.5rem;
   border-radius: 0.75rem;
   -webkit-box-shadow: -0.25rem 0.25rem 0 #70a1ff;
           box-shadow: -0.25rem 0.25rem 0 #70a1ff;
