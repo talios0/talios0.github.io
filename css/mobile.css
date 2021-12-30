@@ -40,4 +40,32 @@
   .experience a div {
     text-align: center;
   }
+
+  .contact {
+    width: 80vw;
+  }
+  .contact form input {
+    width: 7rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .contact form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  footer {
+    width: 75vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  footer div {
+    width: 100%;
+  }
 }
