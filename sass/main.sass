@@ -180,3 +180,130 @@ footer
         align-items: center
         img
             width: 2.5rem
+
+// Education
+.education, .projects
+    display: flex
+    flex-direction: row
+    align-items: flex-start
+    align-content: flex-start
+    flex-wrap: wrap
+    gap: 2rem
+    div
+        background: #5352ed
+        box-shadow: -0.25rem 0.25rem 0 #70a1ff
+        border-radius: 0.75rem
+        margin: 0
+        padding: 0.75rem
+        
+        width: 50rem
+
+        display: flex
+        flex-direction: column
+        margin: 0 auto
+        align-items: flex-start
+        align-content: flex-start
+        div
+            display: flex
+            flex-direction: row
+            background: none
+            box-shadow: none
+
+        h3
+            font-size: 1.65rem
+            text-align: center
+            width: 100%
+            background: #57606f
+            padding: 1rem 0 1rem 0
+            margin-top: 1rem
+            border-radius: 0.75rem
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+        .description
+            background: #57606f
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+            margin: 0
+            padding: 1rem
+            border-radius: 0.75rem
+            width: 30%
+            display: block
+            p
+                font-size: 1.1rem
+        .info
+            display: flex
+            flex-direction: column
+            
+            background: #57606f
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+            padding: 0.75rem
+            width: 60%
+            h4
+                font-size: 1.2rem
+                text-decoration: underline
+                margin: 0
+                padding: 0
+            div
+                background: none
+                width: 100%
+                padding: 0.65rem 0 0.65rem 0
+                margin: 0.5rem 0 0 0
+                border-radius: 0.8rem
+                p
+                    font-size: 1rem
+                    padding: 0
+                    margin: 0
+
+                    padding-left: 0.25rem
+
+            .inprogress
+                background: #ff4757
+                box-shadow: -0.25rem 0.25rem 0 #ff6b81
+
+
+.projects
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    width: 90vw
+    margin: 0 auto
+    gap: 1rem
+    align-items: flex-start
+    align-content: flex-start
+    div // Project
+        display: flex
+        flex-direction: column
+        height: auto
+        width: 33rem
+        align-items: flex-start
+        align-content: flex-start
+        h3 // Project Title
+            width: 100%
+            text-align: center
+            font-size: 1.75rem
+            margin: 0
+            padding: 1rem 0 1rem 0
+        div // Project Container
+            display: flex
+            flex-direction: column
+            .description // Project Description
+                width: auto
+                height: auto
+                margin-right: 1rem
+                a
+                    text-decoration: none
+                    color: #ff4757
+            .carousel // Project Carousel
+                width: 30rem
+                padding: 0
+                margin: 0 auto
+                margin-top: 1rem
+                margin-right: 2rem
+                box-shadow: -0.25rem 0.25rem 0 #a4b0be
+                margin-bottom: 1rem
+                img
+                    width: 100%
+                    border-radius: 0.75rem
+            iframe
+                border-radius: 0.75rem
+                margin: 0 auto
+#plus
+    margin-left: 1.5rem

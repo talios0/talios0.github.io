@@ -77,4 +77,66 @@
   footer div {
     width: 100%;
   }
+
+  .education, .projects {
+    margin: 0;
+    padding: 0;
+    width: 95vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .education div, .projects div {
+    width: 90vw;
+    padding: 0.5rem;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  .education div h3, .projects div h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0.25rem 0 0.25rem 0;
+  }
+  .education div div, .projects div div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .education div div .description, .education div div .info, .projects div div .description, .projects div div .info {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .education div div .description p, .education div div .info p, .projects div div .description p, .projects div div .info p {
+    font-size: 0.95rem;
+    padding: 0rem 0 0 0.5rem;
+  }
+  .education div div .info, .projects div div .info {
+    gap: 1rem;
+    padding: 0.25rem 0 0.25rem 0;
+  }
+  .education div div .info h4, .projects div div .info h4 {
+    padding: 0.25rem 0 0.25rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  .education div div .info div, .projects div div .info div {
+    margin: 0;
+    padding: 0;
+  }
+  .education div div .info div p, .projects div div .info div p {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  .education div div .info .inprogress, .projects div div .info .inprogress {
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
 }
