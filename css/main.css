@@ -30,6 +30,10 @@ body {
   font-family: "Noto Sans", Tahoma, Verdana, Helvetica;
 }
 
+p, h1, h2, h3, h4, a, label, button, input {
+  text-shadow: -0.05rem 0.05rem 0rem #747d8c !important;
+}
+
 header {
   padding-bottom: 1rem;
 }
@@ -236,7 +240,7 @@ footer div img {
   width: 2.5rem;
 }
 
-.education, .projects {
+.education, .projects, .work {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,7 +257,7 @@ footer div img {
       flex-wrap: wrap;
   gap: 2rem;
 }
-.education div, .projects div {
+.education div, .projects div, .work div {
   background: #5352ed;
   -webkit-box-shadow: -0.25rem 0.25rem 0 #70a1ff;
           box-shadow: -0.25rem 0.25rem 0 #70a1ff;
@@ -275,7 +279,7 @@ footer div img {
   -ms-flex-line-pack: start;
       align-content: flex-start;
 }
-.education div div, .projects div div {
+.education div div, .projects div div, .work div div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,7 +291,7 @@ footer div img {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.education div h3, .projects div h3 {
+.education div h3, .projects div h3, .work div h3 {
   font-size: 1.65rem;
   text-align: center;
   width: 100%;
@@ -298,7 +302,7 @@ footer div img {
   -webkit-box-shadow: -0.25rem 0.25rem 0 #a4b0be;
           box-shadow: -0.25rem 0.25rem 0 #a4b0be;
 }
-.education div .description, .projects div .description {
+.education div .description, .projects div .description, .work div .description {
   background: #57606f;
   -webkit-box-shadow: -0.25rem 0.25rem 0 #a4b0be;
           box-shadow: -0.25rem 0.25rem 0 #a4b0be;
@@ -308,10 +312,10 @@ footer div img {
   width: 30%;
   display: block;
 }
-.education div .description p, .projects div .description p {
+.education div .description p, .projects div .description p, .work div .description p {
   font-size: 1.1rem;
 }
-.education div .info, .projects div .info {
+.education div .info, .projects div .info, .work div .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,26 +329,26 @@ footer div img {
   padding: 0.75rem;
   width: 60%;
 }
-.education div .info h4, .projects div .info h4 {
+.education div .info h4, .projects div .info h4, .work div .info h4 {
   font-size: 1.2rem;
   text-decoration: underline;
   margin: 0;
   padding: 0;
 }
-.education div .info div, .projects div .info div {
+.education div .info div, .projects div .info div, .work div .info div {
   background: none;
   width: 100%;
   padding: 0.65rem 0 0.65rem 0;
   margin: 0.5rem 0 0 0;
   border-radius: 0.8rem;
 }
-.education div .info div p, .projects div .info div p {
+.education div .info div p, .projects div .info div p, .work div .info div p {
   font-size: 1rem;
   padding: 0;
   margin: 0;
   padding-left: 0.25rem;
 }
-.education div .info .inprogress, .projects div .info .inprogress {
+.education div .info .inprogress, .projects div .info .inprogress, .work div .info .inprogress {
   background: #ff4757;
   -webkit-box-shadow: -0.25rem 0.25rem 0 #ff6b81;
           box-shadow: -0.25rem 0.25rem 0 #ff6b81;
@@ -431,4 +435,25 @@ footer div img {
 
 #plus {
   margin-left: 1.5rem;
+}
+
+.work div {
+  padding: 1rem;
+  padding-top: 0;
+}
+.work div div {
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+.work div div .description {
+  width: 18vw;
+}
+.work div div .responsibilities {
+  background: #57606f;
+  -webkit-box-shadow: -0.25rem 0.25rem 0 #a4b0be;
+          box-shadow: -0.25rem 0.25rem 0 #a4b0be;
+  padding: 0;
+  margin: 0;
+  padding: 1rem;
 }

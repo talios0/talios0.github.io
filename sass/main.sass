@@ -31,6 +31,8 @@ body
     color: #f1f2f6
     font-family: "Noto Sans", Tahoma, Verdana, Helvetica
 
+p, h1, h2, h3, h4, a, label, button, input
+    text-shadow: -0.05rem 0.05rem 0rem #747d8c !important
 // Header
 
 header
@@ -182,7 +184,7 @@ footer
             width: 2.5rem
 
 // Education
-.education, .projects
+.education, .projects, .work
     display: flex
     flex-direction: row
     align-items: flex-start
@@ -307,3 +309,20 @@ footer
                 margin: 0 auto
 #plus
     margin-left: 1.5rem
+
+.work
+    div
+        padding: 1rem
+        padding-top: 0
+        div
+            padding: 0
+            margin: 0
+            gap: 1rem
+            .description
+                width: 18vw
+            .responsibilities
+                background: #57606f
+                box-shadow: -0.25rem 0.25rem 0 #a4b0be
+                padding: 0
+                margin: 0
+                padding: 1rem
