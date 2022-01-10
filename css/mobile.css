@@ -78,7 +78,7 @@
     width: 100%;
   }
 
-  .education, .projects {
+  .education, .projects, .work {
     margin: 0;
     padding: 0;
     width: 95vw;
@@ -87,18 +87,18 @@
             justify-content: center;
     margin: 0 auto;
   }
-  .education div, .projects div {
+  .education div, .projects div, .work div {
     width: 90vw;
     padding: 0.5rem;
     margin: 0;
     gap: 0.5rem;
   }
-  .education div h3, .projects div h3 {
+  .education div h3, .projects div h3, .work div h3 {
     font-size: 1.3rem;
     margin: 0;
     padding: 0.25rem 0 0.25rem 0;
   }
-  .education div div, .projects div div {
+  .education div div, .projects div div, .work div div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -106,37 +106,56 @@
     padding: 0;
     margin: 0;
   }
-  .education div div .description, .education div div .info, .projects div div .description, .projects div div .info {
+  .education div div .description, .education div div .info, .projects div div .description, .projects div div .info, .work div div .description, .work div div .info {
     width: 100%;
     padding: 0;
     margin: 0;
   }
-  .education div div .description p, .education div div .info p, .projects div div .description p, .projects div div .info p {
+  .education div div .description p, .education div div .info p, .projects div div .description p, .projects div div .info p, .work div div .description p, .work div div .info p {
     font-size: 0.95rem;
     padding: 0rem 0 0 0.5rem;
   }
-  .education div div .info, .projects div div .info {
+  .education div div .info, .projects div div .info, .work div div .info {
     gap: 1rem;
     padding: 0.25rem 0 0.25rem 0;
   }
-  .education div div .info h4, .projects div div .info h4 {
+  .education div div .info h4, .projects div div .info h4, .work div div .info h4 {
     padding: 0.25rem 0 0.25rem 0;
     text-align: center;
     width: 100%;
   }
-  .education div div .info div, .projects div div .info div {
+  .education div div .info div, .projects div div .info div, .work div div .info div {
     margin: 0;
     padding: 0;
   }
-  .education div div .info div p, .projects div div .info div p {
+  .education div div .info div p, .projects div div .info div p, .work div div .info div p {
     font-size: 0.95rem;
     margin: 0;
   }
-  .education div div .info .inprogress, .projects div div .info .inprogress {
+  .education div div .info .inprogress, .projects div div .info .inprogress, .work div div .info .inprogress {
     background: none;
     -webkit-box-shadow: none;
             box-shadow: none;
     padding: 0;
     margin: 0;
+  }
+
+  .work {
+    padding: 0;
+  }
+  .work div {
+    margin: 0;
+    gap: 0.5rem;
+  }
+  .work div .description {
+    width: 100%;
+  }
+  .work div .responsibilities {
+    padding: 0 !important;
+    margin: 0;
+  }
+  .work div .responsibilities p {
+    font-size: 0.95rem;
+    padding: 0 0.5rem;
   }
 }

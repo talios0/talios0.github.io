@@ -65,6 +65,9 @@ header span {
           box-shadow: -0.25rem 0.25rem 0 #eccc68;
   margin-bottom: 2rem;
 }
+#about p {
+  color: white;
+}
 
 .experience {
   display: -webkit-box;

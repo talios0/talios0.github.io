@@ -39,16 +39,16 @@
     width: 25vw;
   }
 
-  .education, .projects {
+  .education, .projects, .work {
     margin: 0 auto;
     gap: 2rem;
   }
-  .education div, .projects div {
+  .education div, .projects div, .work div {
     width: 77vw;
     padding: 0.75rem;
     padding: 0.25rem 0.75rem;
   }
-  .education div h3, .projects div h3 {
+  .education div h3, .projects div h3, .work div h3 {
     font-size: 1.65rem;
     text-align: center;
     width: 100%;
@@ -81,5 +81,22 @@
     text-align: center;
     padding: 0;
     margin: 1rem 0;
+  }
+
+  .work div {
+    padding: 1rem;
+    padding-top: 0;
+  }
+  .work div div {
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+  .work div div .description {
+    width: 25vw;
+  }
+  .work div div .responsibilities {
+    padding: 1rem;
+    margin: 0;
   }
 }
