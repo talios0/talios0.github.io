@@ -215,6 +215,7 @@ nav {
 .projects .item .itemTitle {
   font-size: 2rem;
   font-weight: 800;
+  margin-top: 0.5rem;
   display: block;
 }
 .projects .item .itemTime, .projects .item .itemJob {
@@ -232,17 +233,36 @@ nav {
 }
 .projects .item .itemType {
   position: absolute;
-  left: 58%;
-  width: 12rem;
+  top: 0.5rem;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-filter: none;
+          filter: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.projects .item .itemType div {
+  width: auto;
+  padding: 0 2rem;
+  margin: 0 1rem;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0vh, #ff7b53), to(#da2a13));
   background: linear-gradient(180deg, #ff7b53 0vh, #da2a13 100%);
   border-radius: 1.5vw;
   text-align: right;
   color: white;
 }
-.projects .item .itemType span {
+.projects .item .itemType div span {
   display: block;
-  width: 100%;
+  width: auto;
   text-align: center;
 }
 .projects .item ul {
