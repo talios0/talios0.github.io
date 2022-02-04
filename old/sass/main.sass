@@ -1,0 +1,385 @@
+// Fonts
+    
+@font-face 
+    font-family: "Noto Sans"
+    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype")
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: "Noto Sans"
+    src: url("../fonts/Noto_Sans/NotoSans-Bold.ttf") format("truetype")
+    font-weight: 800
+    font-style: bold
+
+@font-face
+    font-family: "Noto Sans"
+    src: url("../fonts/Noto_Sans/NotoSans-Italic.ttf") format("truetype")
+    font-weight: normal
+    font-style: italic
+
+@font-face
+    font-family: "Noto Sans"
+    src: url("../fonts/Noto_Sans/NotoSans-BoldItalic.ttf") format("truetype")
+    font-weight: 800
+    font-style: italic
+
+body
+    margin: 0
+    padding: 0
+    background: #2f3542
+    color: #f1f2f6
+    font-family: "Noto Sans", Tahoma, Verdana, Helvetica
+
+p, h1, h2, h3, h4, a, label, button, input
+    text-shadow: -0.05rem 0.05rem 0rem #747d8c !important
+// Header
+
+header
+    padding-bottom: 1rem
+    h1
+        text-align: center
+        font-size: 4rem
+        font-weight: 800
+        color: #ffffff
+        margin-top: 1rem
+        margin-bottom: 0
+    h2
+        text-align: center
+        font-style: italic
+        font-weight: 100
+        margin: 0 2.5rem 0 2.5rem
+    span
+        font-weight: 800
+        color: #ffffff
+
+// Main Page
+
+#about
+    margin: 0 15% 0 15%
+    background: #ff6348
+    padding: 2.5rem
+    border-radius: 0.75rem
+    box-shadow: -0.25rem 0.25rem 0 #eccc68
+    margin-bottom: 2rem
+    p
+        color: white
+
+.experience
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    gap: 1rem
+    width: 75vw
+    margin: 0 auto
+    margin-bottom: 2rem
+    a
+        padding: 5rem
+        background: #5352ed
+        width: 18rem
+        height: 6.5rem
+        border-radius: 0.75rem
+        box-shadow: -0.25rem 0.25rem 0 #70a1ff
+        color: white
+        text-decoration: none
+        font-weight: 800
+        font-size: 1.5rem
+
+        transition: 0.1s ease-in-out
+        border: 0.25rem solid #5352ed
+    a:hover
+        border: 0.25rem solid white
+        box-shadow: 0 0 0.5rem white, -0.25rem 0.25rem 0 #70a1ff
+
+p
+    font-family: "Noto Sans"
+    font-size: 1.25rem
+
+// Contact
+.contact
+    width: 65rem
+    margin: 0 auto
+
+    background: #ff6348
+    padding: 2.5rem
+    border-radius: 0.75rem
+    box-shadow: -0.25rem 0.25rem 0 #eccc68
+
+.contact h2
+    text-align: center
+    font-size: 2rem
+    margin: 0
+form
+    display: flex
+    justify-content: center
+    flex-direction: column
+    font-size: 1.25rem
+
+form div
+    display: flex
+    justify-content: space-between
+    flex-direction: row
+
+form label
+    display: flex
+    flex-direction: column
+    margin-bottom: 1.5rem
+
+form div input
+    width: 20rem
+
+form input
+    background: white
+    border: 0.25rem solid #eccc68
+    width: 15rem
+    color: #2f3542
+    font-family: "Noto Sans", Tahoma, Verdana, Helvetica
+    font-size: 1.25rem
+    padding: 1rem
+    transition: 0.15s ease-in-out
+
+form textarea
+    background: white
+    border: 0.25rem solid #eccc68
+    height: 15rem
+    color: #2f3542
+    font-family: "Noto Sans", Tahoma, Verdana, Helvetica
+    font-size: 1.25rem
+    padding: 1rem
+    transition: 0.15s ease-in-out
+
+    resize: none
+
+input:focus, textarea:focus
+    outline: 0.15rem solid #eccc68
+
+.submit:hover
+    background: #f1f2f6
+    cursor: pointer
+    outline: 0.15rem solid #eccc68
+
+// Footer
+
+footer
+    background: #57606f
+    padding: 1.25rem
+
+    width: 50vw
+    margin: 0 auto
+    margin-top: 2rem
+    margin-bottom: 1rem
+    
+    border-radius: 0.75rem
+    box-shadow: -0.25rem 0.25rem 0 #747d8c
+
+    display: flex
+    justify-content: space-between
+    div
+        width: 10vw
+
+        display: flex
+        justify-content: space-between
+        align-items: center
+        img
+            width: 2.5rem
+
+// Education
+.education, .projects, .work
+    display: flex
+    flex-direction: row
+    align-items: flex-start
+    align-content: flex-start
+    flex-wrap: wrap
+    gap: 2rem
+    div
+        background: #5352ed
+        box-shadow: -0.25rem 0.25rem 0 #70a1ff
+        border-radius: 0.75rem
+        margin: 0
+        padding: 0.75rem
+        
+        width: 50rem
+
+        display: flex
+        flex-direction: column
+        margin: 0 auto
+        align-items: flex-start
+        align-content: flex-start
+        div
+            display: flex
+            flex-direction: row
+            background: none
+            box-shadow: none
+
+        h3
+            font-size: 1.65rem
+            text-align: center
+            width: 100%
+            background: #57606f
+            padding: 1rem 0 1rem 0
+            margin-top: 1rem
+            border-radius: 0.75rem
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+        .description
+            background: #57606f
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+            margin: 0
+            padding: 1rem
+            border-radius: 0.75rem
+            width: 30%
+            display: block
+            p
+                font-size: 1.1rem
+        .info
+            display: flex
+            flex-direction: column
+            
+            background: #57606f
+            box-shadow: -0.25rem 0.25rem 0 #a4b0be
+            padding: 0.75rem
+            width: 60%
+            h4
+                font-size: 1.2rem
+                text-decoration: underline
+                margin: 0
+                padding: 0
+            div
+                background: none
+                width: 100%
+                padding: 0.65rem 0 0.65rem 0
+                margin: 0.5rem 0 0 0
+                border-radius: 0.8rem
+                p
+                    font-size: 1rem
+                    padding: 0
+                    margin: 0
+
+                    padding-left: 0.25rem
+
+            .inprogress
+                background: #ff4757
+                box-shadow: -0.25rem 0.25rem 0 #ff6b81
+
+
+.projects
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    width: 90vw
+    margin: 0 auto
+    gap: 1rem
+    align-items: flex-start
+    align-content: flex-start
+    div // Project
+        display: flex
+        flex-direction: column
+        height: auto
+        width: 33rem
+        align-items: flex-start
+        align-content: flex-start
+        h3 // Project Title
+            width: 100%
+            text-align: center
+            font-size: 1.75rem
+            margin: 0
+            padding: 1rem 0 1rem 0
+        div // Project Container
+            display: flex
+            flex-direction: column
+            .description // Project Description
+                width: auto
+                height: auto
+                margin-right: 1rem
+                a
+                    text-decoration: none
+                    color: #ff4757
+            .carousel // Project Carousel
+                background: #57606f
+                width: 30rem
+                padding: 0
+                margin: 0 auto
+                margin-top: 1rem
+                margin-right: 2rem
+                box-shadow: -0.25rem 0.25rem 0 #a4b0be
+                margin-bottom: 1rem
+                img
+                    width: 100%
+                    border-radius: 0.75rem
+                div
+                    display: block
+                    margin: 0
+                    padding: 0
+                    img
+                        width: 28rem
+                        margin: 0
+            iframe
+                border-radius: 0.75rem
+                margin: 0 auto
+#plus
+    margin-left: 1.5rem
+
+.work
+    div
+        padding: 1rem
+        padding-top: 0
+        div
+            padding: 0
+            margin: 0
+            gap: 1rem
+            .description
+                width: 18vw
+            .responsibilities
+                background: #57606f
+                box-shadow: -0.25rem 0.25rem 0 #a4b0be
+                padding: 0
+                margin: 0
+                padding: 1rem
+    
+.experienceSmall
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    gap: 1rem
+    width: 75vw
+    margin: 0 auto
+    margin-bottom: 1rem
+    a
+        padding: 0.25rem
+        background: #5352ed
+        width: 12rem
+        height: 0.75rem
+        border-radius: 0.75rem
+        box-shadow: -0.25rem 0.25rem 0 #70a1ff
+        color: white
+        text-decoration: none
+        font-weight: 800
+        font-size: 1rem
+        text-align: center
+        vertical-align: middle
+
+        transition: 0.1s ease-in-out
+        border: 0.25rem solid #5352ed
+
+        display: flex
+        align-items: center
+        justify-content: center
+        p
+            font-size: 1rem
+    a:hover
+        border: 0.25rem solid white
+        box-shadow: 0 0 0.5rem white, -0.25rem 0.25rem 0 #70a1ff
+
+.slick-slide
+    height: 100% !important
+    display: inline-block !important
+    vertical-align: middle !important
+    img
+        width: 100% !important
+
+.slick-list
+    width: 100% !important
+    margin: 0 auto !important
