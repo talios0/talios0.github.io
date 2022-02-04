@@ -1,0 +1,68 @@
+$darkbg: linear-gradient(184deg,rgba(30, 39, 46,1.0) 0,rgba(15, 24, 31,1) 75%)
+$darkbg2: linear-gradient(180deg, rgba(83,93,101,1) 0%, rgba(30,39,46,1) 100%)
+$darksolid: rgba(30, 39, 46, 1.0)
+
+$lightbg: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,207,178,1) 75%)
+$lightbg2: linear-gradient(180deg, rgba(226,222,222,1) 0%, rgba(255,154,93,1) 75%)
+$lightsolid: white
+    
+@media(max-width: 854px)
+    .links
+        height: 3vh
+        gap: 4vw
+
+    .about
+        flex-direction: column
+        padding: 0 1rem
+        .name
+            font-size: 1.75rem
+            text-align: center
+            h1
+                line-height: 3.5rem
+                margin-bottom: 1rem
+            
+            span
+                font-size: 1.1rem
+
+        .info
+            width: 18rem
+            img
+                top: -3.5vh
+                left: -5vw
+
+                width: 4.5rem
+
+                outline: 1vw $lightsolid solid
+                outline-offset: -0.3vw 
+
+            div
+                font-size: 1.2rem
+                text-indent: 3rem
+
+                padding: 1rem
+
+                border-radius: 5%
+
+    .aboutMin
+        height: 35vh
+
+    nav
+        margin-top: 2rem
+        width: 90%
+        flex-wrap: wrap
+        gap: 2rem
+        
+
+    .button
+        width: 9rem
+        border-radius: 8vw
+
+    .projects
+        padding-top: 2rem
+        gap: 2rem
+
+        .item
+            border-radius: 3vw
+
+        .button
+            text-align: center
