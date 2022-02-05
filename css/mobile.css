@@ -12,7 +12,7 @@
     padding: 0 1rem;
   }
   .about .name {
-    font-size: 1.75rem;
+    font-size: 2rem;
     text-align: center;
   }
   .about .name h1 {
@@ -61,7 +61,15 @@
     gap: 2rem;
   }
   .projects .item {
-    border-radius: 3vw;
+    border-radius: 5vw;
+    padding: 0.25rem 0.5rem;
+    padding-top: 1.4rem;
+  }
+  .projects .item .itemTitle {
+    line-height: 2.5rem;
+  }
+  .projects .item .itemType div {
+    border-radius: 10vw;
   }
   .projects .button {
     text-align: center;
