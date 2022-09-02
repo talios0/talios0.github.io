@@ -20,7 +20,7 @@ body
     width: 100%
     height: 65vh
 
-    background: linear-gradient(180deg, rgba(255,123,83,1) 0vh, rgba(218,42,19,1) 100%)
+    background: linear-gradient(180deg, rgb(255, 123, 83) 0vh, rgba(218,42,19,1) 100%)
     
     padding: 0
     margin: 0
@@ -180,25 +180,31 @@ nav
     gap: 2vw
 
     margin-bottom: 10vh
+    width: 85%
+
+    iframe
+        padding-top: 1rem
+        margin: 0 auto
 
     .item
         display: flex
         flex-direction: column
 
-        background: $lightbg
+        outline: 0.3rem solid rgb(255, 123, 83)
+        box-shadow: inset 0 0 0.75rem black
         border-radius: 1.5vw
         width: 30rem
         height: auto
         padding: 1vw
-
-        filter: drop-shadow(-0.01vw 0.01vh 0.1vw $lightsolid)
+        color: white
 
         .itemTitle
             font-size: 2rem
             font-weight: 800
             margin-top: 0.5rem
-
+            filter: none
             display: block
+            
 
         .itemTime, .itemJob
             display: block
@@ -206,13 +212,16 @@ nav
             text-indent: 1vw
             font-size: 1.1rem
             font-style: italic
+            filter: none
 
         .itemDetail
             font-size: 1.1rem
+            filter: none
 
         .itemSection
             font-size: 1.1rem
             font-weight: bold
+            filter: none
 
         .itemType
             position: absolute
@@ -235,6 +244,7 @@ nav
 
                 background: linear-gradient(180deg, rgba(255,123,83,1) 0vh, rgba(218,42,19,1) 100%)
                 border-radius: 1.5vw
+                filter: none
 
                 text-align: right
                 color: white
