@@ -2,7 +2,7 @@ body {
   font-family: "Prompt", "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
-  color: #1e272e;
+  color: rgb(30, 39, 46);
 }
 
 .fullPage {
@@ -12,8 +12,8 @@ body {
 .fullPage, .halfPage {
   width: 100%;
   height: 65vh;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0vh, #ff7b53), to(#da2a13));
-  background: linear-gradient(180deg, #ff7b53 0vh, #da2a13 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0vh, rgb(255, 123, 83)), to(rgb(218, 42, 19)));
+  background: linear-gradient(180deg, rgb(255, 123, 83) 0vh, rgb(218, 42, 19) 100%);
   padding: 0;
   margin: 0;
   position: relative;
@@ -94,14 +94,14 @@ body {
   outline-offset: -0.1vw;
 }
 .about .info div, .aboutMin .info div {
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(75%, #ffcfb2));
-  background: linear-gradient(180deg, white 0%, #ffcfb2 75%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), color-stop(75%, rgb(255, 207, 178)));
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 207, 178) 75%);
   border-radius: 1.5vw;
   font-size: 1.5rem;
   text-indent: 4vw;
   height: 100%;
   padding: 1vw;
-  color: #1e272e;
+  color: rgb(30, 39, 46);
 }
 
 nav {
@@ -122,8 +122,8 @@ nav {
   width: 15rem;
   height: 3.5rem;
   border-radius: 1.5vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(75%, #ffcfb2));
-  background: linear-gradient(180deg, white 0%, #ffcfb2 75%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), color-stop(75%, rgb(255, 207, 178)));
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 207, 178) 75%);
   text-decoration: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -135,7 +135,7 @@ nav {
           filter: drop-shadow(-0.01vw 0.01vh 0.1vw white);
 }
 .button div {
-  color: #1e272e;
+  color: rgb(30, 39, 46);
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -148,8 +148,8 @@ nav {
   bottom: 0;
   left: 0;
   border-radius: 1.5vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#e2dede), color-stop(75%, #ff9a5d));
-  background: linear-gradient(180deg, #e2dede 0%, #ff9a5d 75%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(226, 222, 222)), color-stop(75%, rgb(255, 154, 93)));
+  background: linear-gradient(180deg, rgb(226, 222, 222) 0%, rgb(255, 154, 93) 75%);
   z-index: -1;
   -webkit-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
@@ -165,11 +165,11 @@ nav {
   top: 96%;
   height: 5vh;
   width: 100vw;
-  background: #1e272e;
+  background: rgb(30, 39, 46);
 }
 
 .darkBG {
-  background: linear-gradient(184deg, #1e272e 0, #0f181f 75%);
+  background: linear-gradient(184deg, rgb(30, 39, 46) 0, rgb(15, 24, 31) 75%);
   height: 100%;
 }
 
@@ -208,7 +208,8 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  outline: 0.3rem solid #ff7b53;
+  position: relative;
+  outline: 0.3rem solid rgb(255, 123, 83);
   -webkit-box-shadow: inset 0 0 0.75rem black;
           box-shadow: inset 0 0 0.75rem black;
   border-radius: 1.5vw;
@@ -246,7 +247,8 @@ nav {
 }
 .projects .item .itemType {
   position: absolute;
-  top: 0.5rem;
+  z-index: 1;
+  top: -0.78rem;
   left: 0;
   width: 100%;
   padding: 0;
@@ -267,8 +269,8 @@ nav {
   width: auto;
   padding: 0 2rem;
   margin: 0 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0vh, #ff7b53), to(#da2a13));
-  background: linear-gradient(180deg, #ff7b53 0vh, #da2a13 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0vh, rgb(255, 123, 83)), to(rgb(218, 42, 19)));
+  background: linear-gradient(180deg, rgb(255, 123, 83) 0vh, rgb(218, 42, 19) 100%);
   border-radius: 1.5vw;
   -webkit-filter: none;
           filter: none;
@@ -300,11 +302,11 @@ nav {
 .projects .item a {
   margin: 1vh auto 0 auto;
   color: white;
-  background: linear-gradient(184deg, #1e272e 0, #0f181f 75%);
-  -webkit-filter: drop-shadow(-0.01vw 0.01vh 0.1vw #1e272e);
-          filter: drop-shadow(-0.01vw 0.01vh 0.1vw #1e272e);
+  background: linear-gradient(184deg, rgb(30, 39, 46) 0, rgb(15, 24, 31) 75%);
+  -webkit-filter: drop-shadow(-0.01vw 0.01vh 0.1vw rgb(30, 39, 46));
+          filter: drop-shadow(-0.01vw 0.01vh 0.1vw rgb(30, 39, 46));
 }
 .projects .item a::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(#535d65), to(#1e272e));
-  background: linear-gradient(180deg, #535d65 0%, #1e272e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(83, 93, 101)), to(rgb(30, 39, 46)));
+  background: linear-gradient(180deg, rgb(83, 93, 101) 0%, rgb(30, 39, 46) 100%);
 }
