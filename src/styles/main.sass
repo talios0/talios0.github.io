@@ -1,0 +1,138 @@
+@import "./theme"
+    
+body
+    font-family: "Prompt", "Montserrat", sans-serif
+    padding: 0
+    margin: 0
+    
+    color: $darksolid
+
+
+.separator
+    position: absolute
+    top: 96%
+
+    height: 5vh
+    width: 100vw
+
+    background: $darksolid
+
+.darkBG
+    background: $darkbg
+    height: 100%
+    
+
+.projects
+    height: 100%
+    flex-grow: 1
+    margin: 0 auto
+    padding-top: 2vh
+
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    align-items: flex-start
+    align-content: flex-start
+    gap: 2vw
+
+    margin-bottom: 10vh
+    width: 85%
+
+    iframe
+        padding-top: 1rem
+        margin: 0 auto
+
+    .item
+        display: flex
+        flex-direction: column
+        position: relative
+
+        outline: 0.3rem solid rgb(255, 123, 83)
+        box-shadow: inset 0 0 0.75rem black
+        border-radius: 1.5vw
+        width: 30rem
+        height: auto
+        padding: 1vw
+        color: white
+
+        .itemTitle
+            font-size: 2rem
+            font-weight: 800
+            margin-top: 0.5rem
+            filter: none
+            display: block
+            
+
+        .itemTime, .itemJob
+            display: block
+
+            text-indent: 1vw
+            font-size: 1.1rem
+            font-style: italic
+            filter: none
+
+        .itemDetail
+            font-size: 1.1rem
+            filter: none
+
+        .itemSection
+            font-size: 1.1rem
+            font-weight: bold
+            filter: none
+
+        .itemType
+            position: absolute
+            z-index: 1
+
+            top: -0.78rem
+            left: 0
+            width: 100%
+
+            padding: 0
+            margin: 0
+
+            filter: none
+            display: flex
+            justify-content: flex-end
+            flex-grow: 1
+            div
+                width: auto
+                padding: 0 2rem
+                margin: 0 1rem
+
+                background: linear-gradient(180deg, rgba(255,123,83,1) 0vh, rgba(218,42,19,1) 100%)
+                border-radius: 1.5vw
+                filter: none
+
+                text-align: right
+                color: white
+                span
+                    display: block
+                    width: auto
+                    text-align: center
+
+
+        ul
+            list-style: none
+            margin: 0
+            padding: 0 0 0 1rem
+            li
+                font-size: 1.1rem
+
+            li::before
+                content: "-"
+                padding-right: 1.5rem
+
+        img
+            width: 100%
+            margin-top: 1rem
+            border-radius: 0.75vw
+
+        a
+            margin: 1vh auto 0 auto
+            color: white
+            background: $darkbg
+            filter: drop-shadow(-0.01vw 0.01vh 0.1vw $darksolid)
+
+        a::before
+            background: $darkbg2

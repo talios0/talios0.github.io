@@ -4,13 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
+import AboutMe from './components/AboutMe/AboutMe';
+import PageNav from './components/PageNav/PageNav';
+
+import "./styles/fonts.sass"
+import "./styles/main.sass"
+import "./styles/Header/about.sass"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header/>
+    <Header fullPage={true}>
+      <AboutMe/>
+      <PageNav/>
+    </Header>
   </React.StrictMode>
 );
 

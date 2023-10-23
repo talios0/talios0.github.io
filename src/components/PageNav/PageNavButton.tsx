@@ -4,7 +4,7 @@ export default function PageNavButton(props: { info : PageNavProp }) {
 
     return (
         <a className = "button" href = {props.info.url}>
-            {props.info.name}
+            <div>{props.info.name}</div>
         </a>
     );
 }

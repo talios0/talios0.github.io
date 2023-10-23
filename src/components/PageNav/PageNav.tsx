@@ -1,6 +1,8 @@
 import PageNavButton from "./PageNavButton";
 import PageNavProp from "../../interfaces/PageNav/PageNavProp";
 
+import "../../styles/navigation.sass"
+
 export default function PageNav() {
     
     const buttons : PageNavProp[] = [

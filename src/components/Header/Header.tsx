@@ -1,15 +1,14 @@
-import AboutMe from "../AboutMe/AboutMe";
-import PageNav from "../PageNav/PageNav";
+import HeaderProp from "../../interfaces/Header/HeaderProp";
 import SocialLinksNav from "../SocialLinks/SocialLinksNav";
+import "../../styles/Header/header.sass"
 
-export default function Header() {
+export default function Header(props: HeaderProp) {
     
 
     return (
-        <div className = "header">
+        <div className = {props.fullPage ? "fullPage" : "halfPage" }>
             <SocialLinksNav/>
-            <AboutMe/>
-            <PageNav/>
+            {props.children}
         </div>
     )
 }

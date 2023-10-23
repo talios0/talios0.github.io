@@ -34,13 +34,13 @@ export default function SocialLinksNav() {
     return(
         <div className="social-links">
             { socialLinks && socialLinks.length > 0 ? (
-                <div>
+                <>
                     { 
                         socialLinks.map((link) => (
                             <SocialLink socialLink = {link}/>
                         ))
                     }
-                </div>
+                </>
             ) : (
                 <div>
                     <p>Woah</p>
